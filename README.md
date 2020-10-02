@@ -1,1 +1,1 @@
-# specatator-news
+# Spectator news
