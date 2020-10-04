@@ -7,8 +7,8 @@ const port = 3000
 
 app.use(cors())
 
-app.get('/articles', (req, res) => {
-  res.send(articles)
+app.get('/api/articles', (req, res) => {
+  res.send({ articles })
 })
 
 app.listen(port, () => {

@@ -1,0 +1,14 @@
+{
+  "name": "rec-test-fe-basket",
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "postinstall": "(cd client && $npm_execpath install) && (cd server && $npm_execpath install)",
+    "client": "cd client && $npm_execpath start",
+    "server": "cd server && $npm_execpath start",
+    "dev": "concurrently --kill-others-on-fail \"$npm_execpath run server\" \"$npm_execpath run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

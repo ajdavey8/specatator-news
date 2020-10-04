@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookmarkList> should return bookmarked articles 1`] = `[Function]`;
